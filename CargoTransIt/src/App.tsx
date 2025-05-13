@@ -56,7 +56,7 @@ function App() {
                         <motion.div
                           ref={serveRef}
                           initial={{ opacity: 0, y: 100 }}
-                          animate={isInView ? { opacity: 1, y: 0, transition: { duration: 1, ease: "easeIn" } } : {}}
+                          animate={isInView ? { opacity: 1, y: 0, transition: { duration: 1.5, ease: "easeIn" } } : {}}
                         >
                         <div className="p-8 bg-gray-100">
 
