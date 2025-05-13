@@ -4,15 +4,14 @@ import { div } from 'motion/react-client'
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import SignIn from './components/SignIn';
 
   function App() {
   
 
   return (
        <div>
-        <Navbar/>
-        <Hero/>
-        <Footer/>
+        <SignIn/>
         </div>
     
   );
